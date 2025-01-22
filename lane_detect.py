@@ -4,6 +4,7 @@ import math
 import time
 from ultralytics import YOLO  # YOLOv8 module
 
+# reference: https://github.com/maheshpaulj/Lane_Detection/blob/main/video.py
 
 # Function to mask out the region of interest
 def region_of_interest(img, vertices):
